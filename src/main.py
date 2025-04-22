@@ -11,8 +11,7 @@ def main():
             add_pokemon_to_db(pokemon_schema)
         else:
             print(f'Não foi possível obter dados para o Pokemón com ID {pokemon_id}')
-            time.sleep(10)
+        time.sleep(10)
 
 if __name__ == '__main__':
     main()
-    
